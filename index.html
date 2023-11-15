@@ -7,7 +7,7 @@
       <style>
         #radamaissaturs{
           display:none;
-        }
+        } 
 
         img {
             width: 300px; 
@@ -18,14 +18,20 @@
           border-collapse: collapse;
           }
         body {
-          background-image: url("https://cdn.pixabay.com/photo/2020/03/14/17/01/flowers-4931217_960_720.png");
+          background-image: url("https://images.unsplash.com/photo-1612293025896-7200cc87e540?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNvZnQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
           
           background-color: rgba(118, 128, 128, 0.171);
         }
         </style>
         <script>
           function raditsaturu(){
-             document.getElementById("radamaissaturs").style.display = "block"
+            document.getElementById("radamaissaturs").style.display = "block";
+            document.getElementById("PogaRadit").style.display= "none"; 
+            document.getElementById("mainamais").style.display= "Mainās teksts un"
+          }
+          function paleptsaturu(){
+            document.getElementById("radamaissaturs").style.display = "none";
+            document.getElementById("radamaissaturs").style.display = "block";
           }
         </script>
     </head>
@@ -46,7 +52,7 @@
               Mēs apzināmies, ka katrs pasūtījums ir īpašs un svarīgs dzīves brīdis. Tāpēc cenšamies saviem klientiem nodrošināt vislabākos pušķus un rast personalizētu pieeju. Mūsu komanda ir gatava jums palīdzēt izvēlēties perfektu ziedu pušķi vai dāvanu, dalīties ar padomiem un ieteikumiem.</p>
             <button id="PogaRadit" onclick="raditsaturu()">Rādīt vairāk</button>
         <div id="radamaissaturs">
-              <p> labas puķes</p>
+              <p> Zieds ir segsēkļu dzimumvairošanās orgāns, kura funkcija ir pēc apputeksnēšanās ražot sēklas. Ziediem izšķir vairākas daļas: ziedkātu, ziedgultni, apziedni, androceju un gineceju. Ziedi galvenokārt atšķiras pēc veida, izmēra un krāsas. Dažiem ziedaugiem ziedi aug uz atsevišķiem kātiem, bet vairumam tie atrodas uz viena kāta un veido ziedkopas. Pēc tā, kāds ir ziedkopu sazarojums, ziedkopas iedala cimozajās jeb simpodiālajās ziedkopās un racemozajās jeb monopodiālajās ziedkopās.[2] Sinonīms vārdam "zieds" ir puķe, lai gan precīzāk ar šo apzīmējumu apzīmē ziedu ar kātu un lapām.</p>
             <button onclick="pasleptsaturu()">Rādīt mazāk</button>
         </div>
             </div>
